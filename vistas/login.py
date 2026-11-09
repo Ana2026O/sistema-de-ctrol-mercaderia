@@ -22,3 +22,13 @@ class LoginView(ctk.CTk):
         )
 
         titulo.pack(pady=40)
+
+       # Línea separadora
+        linea = ctk.CTkFrame(
+        self,
+        width=800,
+        height=4,
+        fg_color="white"
+        )
+
+        linea.pack(pady=(0, 30))

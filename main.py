@@ -9,3 +9,10 @@ if __name__ == "__main__":
 
     # Mantener la aplicación abierta
     app.mainloop()
+
+
+from vistas.menu_principal import MenuPrincipal
+
+if __name__ == "__main__":
+    app = MenuPrincipal()
+    app.mainloop()

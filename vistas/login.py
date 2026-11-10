@@ -32,3 +32,32 @@ class LoginView(ctk.CTk):
         )
 
         linea.pack(pady=(0, 30))
+        # Etiqueta Usuario
+        lbl_usuario = ctk.CTkLabel(
+            self,
+            text="Usuario:",
+            font=("Arial", 18, "bold"),
+            text_color="white"
+        )
+
+        lbl_usuario.pack(pady=(20, 5))
+
+        # Campo de texto Usuario
+        self.txt_usuario = ctk.CTkEntry(
+        self,
+        width=300,
+        height=40,
+        placeholder_text="Ingrese su usuario"
+        )
+
+        self.txt_usuario.pack()
+
+    # Etiqueta Contraseña
+        lbl_password = ctk.CTkLabel(
+        self,
+        text="Contraseña:",
+        font=("Arial", 18, "bold"),
+        text_color="white"
+        )
+
+        lbl_password.pack(pady=(20, 5))

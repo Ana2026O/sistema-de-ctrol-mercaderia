@@ -16,6 +16,28 @@ Permite registrar los movimientos de mercadería, controlar las existencias disp
 - Git
 - GitHub
 
+  ómo obtener e iniciar el proyecto
+
+1. Clonar el repositorio
+
+Abrir una terminal y ejecutar:
+
+git clone URL_DEL_REPOSITORIO
+
+2. Ingresar a la carpeta del proyecto
+
+cd NOMBRE_CARPETA_DEL_REPOSITORIO
+
+3. Instalar la dependencia
+
+python -m pip install customtkinter
+
+4. Ejecutar el sistema
+
+python main.py
+
+Se abrirá la pantalla de inicio de sesión del sistema.
+
 ## Funcionalidades
 
 El sistema permite:

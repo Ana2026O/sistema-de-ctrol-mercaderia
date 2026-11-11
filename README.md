@@ -23,6 +23,7 @@ Permite registrar los movimientos de mercadería, controlar las existencias disp
 Abrir una terminal y ejecutar:
 
 git clone URL_DEL_REPOSITORIO
+https://github.com/Ana2026O/sistema-de-ctrol-mercaderia.git
 
 2. Ingresar a la carpeta del proyecto
 

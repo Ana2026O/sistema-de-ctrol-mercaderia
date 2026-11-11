@@ -1,0 +1,104 @@
+[
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 00:59",
+        "producto": "Coca Cola",
+        "cantidad": 18,
+        "proveedor": "Distribuidora Norte",
+        "comprobante": "FAC-111111111",
+        "detalle": "Proveedor: Distribuidora Norte - Comprobante: FAC-111111111"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 00:59",
+        "producto": "Sprite",
+        "cantidad": 2,
+        "proveedor": "Distribuidora Norte",
+        "comprobante": "FAC-111111111",
+        "detalle": "Proveedor: Distribuidora Norte - Comprobante: FAC-111111111"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 01:00",
+        "producto": "Sprite",
+        "cantidad": 5,
+        "proveedor": "Proveedor A",
+        "comprobante": "REM-1458923656",
+        "detalle": "Proveedor: Proveedor A - Comprobante: REM-1458923656"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 01:00",
+        "producto": "Coca Cola",
+        "cantidad": 2,
+        "proveedor": "Proveedor A",
+        "comprobante": "REM-1458923656",
+        "detalle": "Proveedor: Proveedor A - Comprobante: REM-1458923656"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 01:00",
+        "producto": "Agua",
+        "cantidad": 8,
+        "proveedor": "Proveedor A",
+        "comprobante": "REM-1458923656",
+        "detalle": "Proveedor: Proveedor A - Comprobante: REM-1458923656"
+    },
+    {
+        "fecha": "11/11/2026",
+        "tipo": "Salida",
+        "producto": "Coca Cola",
+        "cantidad": 6,
+        "detalle": "Motivo: Mercadería dañada"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 01:38",
+        "producto": "Coca Cola",
+        "cantidad": 255,
+        "proveedor": "Distribuidora Norte",
+        "comprobante": "REM-142888",
+        "detalle": "Proveedor: Distribuidora Norte - Comprobante: REM-142888"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 16:46",
+        "producto": "drink2",
+        "cantidad": 4,
+        "proveedor": "Distribuidora Norte",
+        "comprobante": "REM-96969696",
+        "detalle": "Proveedor: Distribuidora Norte - Comprobante: REM-96969696"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 16:46",
+        "producto": "Coca  cola 1.2",
+        "cantidad": 8,
+        "proveedor": "Distribuidora Norte",
+        "comprobante": "REM-96969696",
+        "detalle": "Proveedor: Distribuidora Norte - Comprobante: REM-96969696"
+    },
+    {
+        "fecha": "15448",
+        "tipo": "Salida",
+        "producto": "Coca Cola",
+        "cantidad": 4,
+        "detalle": "Motivo: Traslado"
+    },
+    {
+        "fecha": "11/11/2026",
+        "tipo": "Salida",
+        "producto": "drink2",
+        "cantidad": 1,
+        "detalle": "Motivo: Devolución"
+    },
+    {
+        "tipo": "Ingreso",
+        "fecha": "11/11/2026 18:10",
+        "producto": "Coca  cola 1.2",
+        "cantidad": 4,
+        "proveedor": "el sur bebidas S.R.L",
+        "comprobante": "REM-0144878888888888",
+        "detalle": "Proveedor: el sur bebidas S.R.L - Comprobante: REM-0144878888888888"
+    }
+]

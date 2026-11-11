@@ -1,21 +1,37 @@
+
 import customtkinter as ctk
+from tkinter import messagebox
 
 
-# Ventana principal de acceso al sistema
+# Clase Administrador: lógica de autenticación
+class Administrador:
+
+    def __init__(self, usuario, password):
+        self.__usuario = usuario
+        self.__password = password
+
+    def validar_credenciales(self, usuario, password):
+        return (
+            usuario == self.__usuario
+            and password == self.__password
+        )
+
+
+# Pantalla de inicio de sesión
 class LoginView(ctk.CTk):
 
     def __init__(self):
         super().__init__()
 
-        # Configuración de la ventana
         self.title("Control de Mercadería")
         self.geometry("900x600")
         self.resizable(False, False)
-
-        # Color de fondo
         self.configure(fg_color="#001F6B")
 
-        # Título principal
+        # Administrador de prueba
+        self.administrador = Administrador("admin", "1234")
+
+        # Título
         titulo = ctk.CTkLabel(
             self,
             text="Sistema de Control de Mercadería",
@@ -24,7 +40,7 @@ class LoginView(ctk.CTk):
         )
         titulo.pack(pady=40)
 
-        # Línea separadora
+        # Separador
         linea = ctk.CTkFrame(
             self,
             width=800,
@@ -90,10 +106,37 @@ class LoginView(ctk.CTk):
 
     def iniciar_sesion(self):
 
-        usuario = self.txt_usuario.get()
+        usuario = self.txt_usuario.get().strip()
         password = self.txt_password.get()
 
-        if usuario == "admin" and password == "1234":
-            print("Ingreso correcto")
+        if not usuario or not password:
+            messagebox.showwarning(
+                "Datos incompletos",
+                "Ingrese usuario y contraseña."
+            )
+            return
+
+        if self.administrador.validar_credenciales(usuario, password):
+
+            messagebox.showinfo(
+                "Acceso correcto",
+                "Bienvenido al sistema."
+            )
+
+            from vistas.menu_principal import MenuPrincipal
+
+            self.destroy()
+
+            app = MenuPrincipal()
+            app.mainloop()
+            
         else:
-            print("Usuario o contraseña incorrectos")
+            messagebox.showerror(
+                "Error de acceso",
+                "Usuario o contraseña incorrectos."
+            )
+
+
+if __name__ == "__main__":
+    app = LoginView()
+    app.mainloop()

@@ -1,0 +1,51 @@
+{
+    "categorias": [
+        [
+            1,
+            "Gaseosas"
+        ],
+        [
+            2,
+            "Jugos"
+        ],
+        [
+            3,
+            "Agua"
+        ],
+        [
+            4,
+            "energizante"
+        ],
+        [
+            5,
+            "probando persietncia 111"
+        ]
+    ],
+    "subcategorias": [
+        [
+            1,
+            "Cola",
+            "Gaseosas"
+        ],
+        [
+            2,
+            "Lima-Limón",
+            "Gaseosas"
+        ],
+        [
+            3,
+            "Naranja",
+            "Jugos"
+        ],
+        [
+            4,
+            "sin azucar",
+            "energizante"
+        ],
+        [
+            5,
+            "probando persistencia 2",
+            "Gaseosas"
+        ]
+    ]
+}

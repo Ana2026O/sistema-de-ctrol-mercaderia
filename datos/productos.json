@@ -1,0 +1,38 @@
+[
+    {
+        "id": 2,
+        "nombre": "Agua",
+        "categoria": "Agua",
+        "subcategoria": "Mineral"
+    },
+    {
+        "id": 3,
+        "nombre": "Spriteeee",
+        "categoria": "Gaseosas",
+        "subcategoria": "Lima-Limón"
+    },
+    {
+        "id": 4,
+        "nombre": "manao",
+        "categoria": "Gaseosas",
+        "subcategoria": "Naranja"
+    },
+    {
+        "id": 5,
+        "nombre": "baggio",
+        "categoria": "Jugos",
+        "subcategoria": "Naranja"
+    },
+    {
+        "id": 6,
+        "nombre": "Coca  cola 1.2",
+        "categoria": "Gaseosas",
+        "subcategoria": "Cola"
+    },
+    {
+        "id": 7,
+        "nombre": "drink2",
+        "categoria": "probando persietncia 111",
+        "subcategoria": "probando persistencia 2"
+    }
+]
